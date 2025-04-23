@@ -84,7 +84,9 @@ This file will give you a solid understanding of your most efficient and stable 
 
 ---
 
-⚠️ **Disclaimer**: Due to the nature of the ASIC lottery, results may vary slightly between 
+## ⚠️ **Disclaimer**: 
+
+Due to the nature of the ASIC lottery, results may vary slightly between 
 units — even with identical models. Some fine-tuning may be required to dial in the best results 
 for your specific hardware. I've personally tested and adjusted parameters across multiple 
 Gamma 601's to find what works best.
