@@ -84,7 +84,7 @@ This file will give you a solid understanding of your most efficient and stable 
 
 ---
 
-## ⚠️ **Disclaimer**: 
+## ⚠️ **Disclaimer** 
 
 Due to the nature of the ASIC lottery, results may vary slightly between 
 units — even with identical models. Some fine-tuning may be required to dial in the best results 
