@@ -23,7 +23,10 @@ stability, and temperature — helping you tune your miner safely and effectivel
 ## ⚙️ Requirements
 
 - Python 3.6 or newer
-- `requests` module (`pip install requests`)
+- Required Python packages (install with `pip install -r requirements.txt`):
+  - `requests` - for API communication with Bitaxe
+  - `pandas` - for data analysis (analyzer script)
+  - `numpy` - for statistical calculations (analyzer script)
 - A Bitaxe running AxeOS, accessible on your local network
 
 Tested on:
@@ -73,6 +76,28 @@ cd bitaxe-gamma-oc-script
    ```
 
 This file will give you a solid understanding of your most efficient and stable configuration — if the final result isn't already the best one.
+
+---
+
+## 📊 Analyzing Results
+
+After your tuning run completes, use the included analyzer script to get detailed insights:
+
+```bash
+python3 analyze_tuning_data.py
+```
+
+### What the Analyzer Provides:
+
+- **Highest Hashrate Configuration**: Maximum performance settings
+- **Most Stable Configuration**: Lowest standard deviation for consistent mining  
+- **Best Balance**: Optimal 60% hashrate / 40% stability weighted score
+- **Top 5 Rankings**: Lists for hashrate, stability, and balanced configurations
+- **Temperature Analysis**: Performance breakdown by operating temperature
+- **Voltage Comparison**: Detailed stats for each voltage level tested
+- **Final Recommendation**: Complete setup guide with reasoning
+
+The analyzer helps you choose between maximum performance, maximum stability, or the best overall balance for your specific mining goals.
 
 ---
 
